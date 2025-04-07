@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Error 1: Root element is Hotel instead of Hotels -->
+<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Hotels.xsd">
+  
+  <Hotel Rating="4.2">
+    <Name>Westin</Name>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <Address NearstAirport="Sky Harbor">
+      <Number>11</Number>
+      <Street>E.7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+  
+  <Hotel Rating="4.5">
+    <!--  Error 3: Phone element is missing -->
+    <Name>Marriott Downtown</Name>
+    <Address NearstAirport="Sky Harbor">
+      <Number>100</Number>
+      <Street>N 1st St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85004</Zip>
+    </Address>
+  </Hotel>
+  
+  <Hotel>
+    <Name>Hilton Phoenix Resort</Name>
+    <Phone>480-947-5400</Phone>
+    <!--  Error 2: Required NearstAirport attribute is missing -->
+    <Address>
+      <Number>6333</Number>
+      <Street>N Scottsdale Rd</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85250</Zip>
+    </Address>
+  </Hotel>
+  
+  <Hotel Rating="4.7">
+    <!--  Error 5: Two names provided for one hotel -->
+    <Name>Four Seasons Resort Scottsdale</Name>
+    <Name>Four Seasons Scottsdale</Name>
+    <Phone>480-515-5700</Phone>
+    <Phone>800-819-5053</Phone>
+    <Address NearstAirport="Sky Harbor">
+      <Number>10600</Number>
+      <Street>E Crescent Moon Dr</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85262</Zip>
+    </Address>
+  </Hotel>
+  
+  <Hotel>
+    <Name>Hyatt Regency Phoenix</Name>
+    <Phone>602-252-1234</Phone>
+    <!--  Error 4: Address element has no closing tag -->
+    <Address NearstAirport="Sky Harbor">
+      <Number>122</Number>
+      <Street>N 2nd St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85004</Zip>
+  </Hotel>
+  
+  <Hotel Rating="3.9">
+    <Name>Sheraton Phoenix Downtown</Name>
+    <Phone>602-262-2500</Phone>
+    <Address NearstAirport="Sky Harbor">
+      <Number>340</Number>
+      <Street>N 3rd St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85004</Zip>
+    </Address>
+  </Hotel>
+  
+</Hotel>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Hotels.xsd">
+  
+  <Hotel Rating="4.2">
+    <Name>Westin</Name>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <Address NearstAirport="Sky Harbor">
+      <Number>11</Number>
+      <Street>E.7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+  
+  <Hotel Rating="4.5">
+    <Name>Marriott Downtown</Name>
+    <Phone>602-262-2500</Phone>
+    <Phone>800-228-9290</Phone>
+    <Address NearstAirport="Sky Harbor">
+      <Number>100</Number>
+      <Street>N 1st St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85004</Zip>
+    </Address>
+  </Hotel>
+  
+  <Hotel>
+    <Name>Hilton Phoenix Resort</Name>
+    <Phone>480-947-5400</Phone>
+    <Address NearstAirport="Sky Harbor">
+      <Number>6333</Number>
+      <Street>N Scottsdale Rd</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85250</Zip>
+    </Address>
+  </Hotel>
+  
+  <Hotel Rating="4.7">
+    <Name>Four Seasons Resort Scottsdale</Name>
+    <Phone>480-515-5700</Phone>
+    <Phone>800-819-5053</Phone>
+    <Address NearstAirport="Sky Harbor">
+      <Number>10600</Number>
+      <Street>E Crescent Moon Dr</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85262</Zip>
+    </Address>
+  </Hotel>
+  
+  <Hotel>
+    <Name>Hyatt Regency Phoenix</Name>
+    <Phone>602-252-1234</Phone>
+    <Address NearstAirport="Sky Harbor">
+      <Number>122</Number>
+      <Street>N 2nd St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85004</Zip>
+    </Address>
+  </Hotel>
+  
+  <Hotel Rating="3.9">
+    <Name>Sheraton Phoenix Downtown</Name>
+    <Phone>602-262-2500</Phone>
+    <Address NearstAirport="Sky Harbor">
+      <Number>340</Number>
+      <Street>N 3rd St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85004</Zip>
+    </Address>
+  </Hotel>
+  
+  <Hotel Rating="4.1">
+    <Name>Renaissance Phoenix Downtown</Name>
+    <Phone>602-333-0000</Phone>
+    <Phone>888-236-2427</Phone>
+    <Address NearstAirport="Sky Harbor">
+      <Number>50</Number>
+      <Street>E Adams St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85004</Zip>
+    </Address>
+  </Hotel>
+  
+  <Hotel>
+    <Name>The Wigwam</Name>
+    <Phone>623-935-3811</Phone>
+    <Address NearstAirport="Sky Harbor">
+      <Number>300</Number>
+      <Street>E Wigwam Blvd</Street>
+      <City>Litchfield Park</City>
+      <State>AZ</State>
+      <Zip>85340</Zip>
+    </Address>
+  </Hotel>
+  
+  <Hotel Rating="4.3">
+    <Name>The Scott Resort &amp; Spa</Name>
+    <Phone>480-945-7666</Phone>
+    <Phone>800-528-7867</Phone>
+    <Address NearstAirport="Sky Harbor">
+      <Number>4925</Number>
+      <Street>N Scottsdale Rd</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85251</Zip>
+    </Address>
+  </Hotel>
+  
+  <Hotel Rating="3.8">
+    <Name>Arizona Grand Resort</Name>
+    <Phone>602-438-9000</Phone>
+    <Address NearstAirport="Sky Harbor">
+      <Number>8000</Number>
+      <Street>S Arizona Grand Pkwy</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85044</Zip>
+    </Address>
+  </Hotel>
+  
+  <Hotel Rating="4.0">
+    <Name>Hotel Valley Ho</Name>
+    <Phone>480-376-2600</Phone>
+    <Phone>866-882-4484</Phone>
+    <Address NearstAirport="Sky Harbor">
+      <Number>6850</Number>
+      <Street>E Main St</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85251</Zip>
+    </Address>
+  </Hotel>
+  
+</Hotels>
